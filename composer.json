@@ -12,8 +12,5 @@
     "psr-4": {
       "extas\\": "src/"
     }
-  },
-  "bin": [
-    "bin/build"
-  ]
+  }
 }
