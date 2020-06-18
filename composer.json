@@ -1,0 +1,19 @@
+{
+  "name": "jeyroik/extas-snuffbox-installer",
+  "description": "Contains test for extas.json",
+  "require-dev": {
+    "jeyroik/extas-installer": "3.*",
+    "jeyroik/extas-snuffbox": "0.*",
+    "phpunit/phpunit": "^9",
+    "vlucas/phpdotenv": "^3.4",
+    "jeyroik/extas-repositories-mongo": "1.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "extas\\": "src/"
+    }
+  },
+  "bin": [
+    "bin/build"
+  ]
+}

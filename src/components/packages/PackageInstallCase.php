@@ -56,8 +56,7 @@ class PackageInstallCase extends TestCase
             'pluginRepository' => PluginRepository::class,
             'entityRepository' => EntityRepository::class,
             'extensionRepository' => ExtensionRepository::class,
-            'crawlerRepository' => CrawlerRepository::class,
-            'generatorRepository' => GeneratorRepository::class
+            'crawlerRepository' => CrawlerRepository::class
         ]);
     }
 
