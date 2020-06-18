@@ -17,7 +17,6 @@ use extas\components\console\TSnuffConsole;
 use extas\components\crawlers\Crawler;
 use extas\components\crawlers\CrawlerRepository;
 use extas\components\extensions\ExtensionRepository;
-use extas\components\generators\GeneratorRepository;
 use extas\components\packages\entities\EntityRepository;
 use extas\components\plugins\init\Init;
 use extas\components\plugins\init\InitItem;
