@@ -1,6 +1,7 @@
 <?php
 namespace extas\components\packages;
 
+use extas\components\options\CommandOptionRepository;
 use extas\interfaces\stages\IStageInitialize;
 use extas\interfaces\stages\IStageInitializeItem;
 use extas\interfaces\stages\IStageInstall;
@@ -55,7 +56,8 @@ class PackageInstallCase extends TestCase
             'pluginRepository' => PluginRepository::class,
             'entityRepository' => EntityRepository::class,
             'extensionRepository' => ExtensionRepository::class,
-            'crawlerRepository' => CrawlerRepository::class
+            'crawlerRepository' => CrawlerRepository::class,
+            'commandOptionRepository' => CommandOptionRepository::class
         ]);
     }
 
